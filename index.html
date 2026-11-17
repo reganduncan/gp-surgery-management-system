@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>GP Surgery Patient Management System</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>GP Surgery Patient Management System</h1>
+
+</header>
+
+<div class="container">
+
+<section class="card">
+
+<h2>Add New Patient</h2>
+
+<form id="patientForm">
+
+<label>Patient ID</label>
+
+<input type="text" id="patientId" required>
+
+<label>First Name</label>
+
+<input type="text" id="firstName" required>
+
+<label>Last Name</label>
+
+<input type="text" id="lastName" required>
+
+<label>Date of Birth</label>
+
+<input type="date" id="dob" required>
+
+<label>Gender</label>
+
+<select id="gender">
+
+<option>Male</option>
+
+<option>Female</option>
+
+<option>Other</option>
+
+</select>
+
+<label>Telephone</label>
+
+<input type="text" id="telephone" required>
+
+<label>Email</label>
+
+<input type="email" id="email">
+
+<button type="submit">Save Patient</button>
+
+</form>
+
+</section>
+
+<section class="card">
+
+<h2>Search Patients</h2>
+
+<input
+
+type="text"
+
+id="searchBox"
+
+placeholder="Search by ID, name or surname"
+
+>
+
+</section>
+
+<section class="card">
+
+<h2>Patient Records</h2>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>ID</th>
+
+<th>Patient Name</th>
+
+<th>DOB</th>
+
+<th>Gender</th>
+
+<th>Telephone</th>
+
+<th>Actions</th>
